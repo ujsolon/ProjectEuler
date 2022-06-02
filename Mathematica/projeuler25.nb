@@ -1,0 +1,133 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 10.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      3553,        124]
+NotebookOptionsPosition[      2922,         96]
+NotebookOutlinePosition[      3262,        111]
+CellTagsIndexPosition[      3219,        108]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{
+   RowBox[{"DigitNumberOf", "[", "n_", "]"}], ":=", " ", 
+   RowBox[{"Length", "[", 
+    RowBox[{"IntegerDigits", "[", "n", "]"}], "]"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{"DigitNumberOf", "[", 
+  RowBox[{"Fibonacci", "[", "1000", "]"}], 
+  "]"}], "\[IndentingNewLine]"}], "Input",
+ CellChangeTimes->{{3.788619459385155*^9, 3.788619600520353*^9}, {
+  3.788625324793157*^9, 3.78862533774118*^9}, {3.7886261317045746`*^9, 
+  3.7886261320633755`*^9}}],
+
+Cell[BoxData["209"], "Output",
+ CellChangeTimes->{{3.788619463560161*^9, 3.7886194767801795`*^9}, {
+   3.788619550860283*^9, 3.7886195823903275`*^9}, {3.7886253330455713`*^9, 
+   3.7886253390671825`*^9}, 3.788626133124177*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"Table", "[", 
+   RowBox[{
+    RowBox[{"DigitNumberOf", "[", 
+     RowBox[{"Fibonacci", "[", "n", "]"}], "]"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"n", ",", "5000"}], "}"}]}], "]"}], "[", 
+  RowBox[{"[", 
+   RowBox[{"-", "1"}], "]"}], "]"}]], "Input",
+ CellChangeTimes->{{3.7886254598581944`*^9, 3.7886254791866283`*^9}, {
+  3.788625707383829*^9, 3.7886257476631002`*^9}, {3.7886257853839664`*^9, 
+  3.7886257941667814`*^9}, {3.7886259041937747`*^9, 3.788625909310584*^9}}],
+
+Cell[BoxData["1045"], "Output",
+ CellChangeTimes->{
+  3.7886254828370347`*^9, {3.7886257149498425`*^9, 3.7886257482871013`*^9}, {
+   3.7886257859767675`*^9, 3.788625795383584*^9}, 3.788625911135787*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"FirstPosition", "[", 
+  RowBox[{
+   RowBox[{"Table", "[", 
+    RowBox[{
+     RowBox[{"DigitNumberOf", "[", 
+      RowBox[{"Fibonacci", "[", "n", "]"}], "]"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"n", ",", "5000"}], "}"}]}], "]"}], ",", "1000"}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.7886262319503508`*^9, 3.7886262504519835`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"{", "4782", "}"}]], "Output",
+ CellChangeTimes->{3.7886262513099847`*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"DigitNumberOf", "[", 
+   RowBox[{"Fibonacci", "[", "4782", "]"}], "]"}], 
+  "\[IndentingNewLine]"}]], "Input",
+ CellChangeTimes->{{3.7886262653188095`*^9, 3.788626276051628*^9}}],
+
+Cell[BoxData["1000"], "Output",
+ CellChangeTimes->{{3.7886262662080107`*^9, 3.788626276550829*^9}}]
+}, Open  ]]
+},
+WindowSize->{1264, 641},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+FrontEndVersion->"10.0 for Microsoft Windows (64-bit) (July 1, 2014)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 495, 12, 72, "Input"],
+Cell[1078, 36, 226, 3, 31, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[1341, 44, 509, 12, 31, "Input"],
+Cell[1853, 58, 202, 3, 31, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[2092, 66, 362, 10, 31, "Input"],
+Cell[2457, 78, 97, 2, 31, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[2591, 85, 213, 5, 52, "Input"],
+Cell[2807, 92, 99, 1, 64, "Output"]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)

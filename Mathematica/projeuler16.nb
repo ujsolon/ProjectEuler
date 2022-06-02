@@ -1,0 +1,66 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 10.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      1597,         57]
+NotebookOptionsPosition[      1289,         41]
+NotebookOutlinePosition[      1630,         56]
+CellTagsIndexPosition[      1587,         53]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{
+   RowBox[{"DigitSum", "[", "n_", "]"}], ":=", " ", 
+   RowBox[{"Total", "[", 
+    RowBox[{"IntegerDigits", "[", "n", "]"}], "]"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{"DigitSum", "[", 
+  RowBox[{"2", "^", "1000"}], "]"}], "\[IndentingNewLine]"}], "Input",
+ CellChangeTimes->{{3.7512023830514917`*^9, 3.751202407028734*^9}, {
+  3.751202449694809*^9, 3.751202513327321*^9}, {3.7512026263251195`*^9, 
+  3.7512026308959274`*^9}, {3.7512026963380423`*^9, 3.751202724480492*^9}, {
+  3.751202757006549*^9, 3.751202788503004*^9}}],
+
+Cell[BoxData["1366"], "Output",
+ CellChangeTimes->{
+  3.751202708584064*^9, {3.751202775632982*^9, 3.751202788986605*^9}}]
+}, Open  ]]
+},
+WindowSize->{775, 561},
+WindowMargins->{{75, Automatic}, {16, Automatic}},
+FrontEndVersion->"10.0 for Microsoft Windows (64-bit) (July 1, 2014)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 568, 12, 72, "Input"],
+Cell[1151, 36, 122, 2, 64, "Output"]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
