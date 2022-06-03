@@ -1,0 +1,119 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 12.1' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      4544,        109]
+NotebookOptionsPosition[      3751,         87]
+NotebookOutlinePosition[      4155,        103]
+CellTagsIndexPosition[      4112,        100]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell["\<\
+
+Problem gives P[5]=6 not equal to the P[5] below, which is 7. This indicates \
+that the number itself is included in Mathematica\[CloseCurlyQuote]s count \
+yielding the answer\
+\>", "Text",
+ CellChangeTimes->{{3.863222002396615*^9, 
+  3.863222158879815*^9}},ExpressionUUID->"8627e1c6-0b55-4679-a799-\
+4cbf3b4b8f6a"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"PartitionsP", "[", "100", "]"}], "-", "1"}]], "Input",
+ CellChangeTimes->{{3.863222153276513*^9, 3.8632221632500353`*^9}},
+ CellLabel->"In[8]:=",ExpressionUUID->"4a0e558e-a081-49af-8d51-bf28c97b577f"],
+
+Cell[BoxData["190569291"], "Output",
+ CellChangeTimes->{{3.8632221614719*^9, 3.863222164832421*^9}},
+ CellLabel->"Out[8]=",ExpressionUUID->"767f6f02-b6c5-4905-bceb-58114840920b"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Table", "[", 
+  RowBox[{
+   RowBox[{"PartitionsP", "[", "n", "]"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"n", ",", "1", ",", "100"}], "}"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.8632216680660872`*^9, 3.863221674951461*^9}, {
+  3.8632217291448917`*^9, 3.8632217297192836`*^9}, {3.863221816577474*^9, 
+  3.863221820456519*^9}, {3.8632219157868147`*^9, 3.8632219158482313`*^9}, {
+  3.8632219731695337`*^9, 3.863221979360688*^9}},
+ CellLabel->"In[6]:=",ExpressionUUID->"4f0baa5e-df57-4885-a01d-7471866978ab"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+  "1", ",", "2", ",", "3", ",", "5", ",", "7", ",", "11", ",", "15", ",", 
+   "22", ",", "30", ",", "42", ",", "56", ",", "77", ",", "101", ",", "135", 
+   ",", "176", ",", "231", ",", "297", ",", "385", ",", "490", ",", "627", 
+   ",", "792", ",", "1002", ",", "1255", ",", "1575", ",", "1958", ",", 
+   "2436", ",", "3010", ",", "3718", ",", "4565", ",", "5604", ",", "6842", 
+   ",", "8349", ",", "10143", ",", "12310", ",", "14883", ",", "17977", ",", 
+   "21637", ",", "26015", ",", "31185", ",", "37338", ",", "44583", ",", 
+   "53174", ",", "63261", ",", "75175", ",", "89134", ",", "105558", ",", 
+   "124754", ",", "147273", ",", "173525", ",", "204226", ",", "239943", ",", 
+   "281589", ",", "329931", ",", "386155", ",", "451276", ",", "526823", ",", 
+   "614154", ",", "715220", ",", "831820", ",", "966467", ",", "1121505", ",",
+    "1300156", ",", "1505499", ",", "1741630", ",", "2012558", ",", "2323520",
+    ",", "2679689", ",", "3087735", ",", "3554345", ",", "4087968", ",", 
+   "4697205", ",", "5392783", ",", "6185689", ",", "7089500", ",", "8118264", 
+   ",", "9289091", ",", "10619863", ",", "12132164", ",", "13848650", ",", 
+   "15796476", ",", "18004327", ",", "20506255", ",", "23338469", ",", 
+   "26543660", ",", "30167357", ",", "34262962", ",", "38887673", ",", 
+   "44108109", ",", "49995925", ",", "56634173", ",", "64112359", ",", 
+   "72533807", ",", "82010177", ",", "92669720", ",", "104651419", ",", 
+   "118114304", ",", "133230930", ",", "150198136", ",", "169229875", ",", 
+   "190569292"}], "}"}]], "Output",
+ CellChangeTimes->{
+  3.8632216702759533`*^9, {3.8632218172255383`*^9, 3.863221821588908*^9}, 
+   3.8632219162589455`*^9, {3.8632219741190004`*^9, 3.863221980224382*^9}},
+ CellLabel->"Out[6]=",ExpressionUUID->"67225721-8328-49f5-ad32-c4d50388b2dd"]
+}, Open  ]]
+},
+WindowSize->{571.8, 524.4},
+WindowMargins->{{284.4, Automatic}, {18, Automatic}},
+FrontEndVersion->"12.1 for Microsoft Windows (64-bit) (June 9, 2020)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"30e2811f-cfb2-40c8-b521-d3ce4ea36741"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[558, 20, 326, 8, 104, "Text",ExpressionUUID->"8627e1c6-0b55-4679-a799-4cbf3b4b8f6a"],
+Cell[CellGroupData[{
+Cell[909, 32, 235, 4, 28, "Input",ExpressionUUID->"4a0e558e-a081-49af-8d51-bf28c97b577f"],
+Cell[1147, 38, 178, 2, 55, "Output",ExpressionUUID->"767f6f02-b6c5-4905-bceb-58114840920b"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[1362, 45, 530, 10, 28, "Input",ExpressionUUID->"4f0baa5e-df57-4885-a01d-7471866978ab"],
+Cell[1895, 57, 1840, 27, 267, "Output",ExpressionUUID->"67225721-8328-49f5-ad32-c4d50388b2dd"]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
+
